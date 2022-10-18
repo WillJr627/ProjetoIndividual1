@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<body style="background-color:rgb(236, 199, 150)"> <!--cor escolhida para a página-->
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eucontato.css"> <!--link do css para a ornamentação das caixas de dialogo-->
+ <title>Contato</title>
+
+</head>
+<nav>
+    <h2 class="logo">Traje<span>tória</span></h2><!--Logo-->
+    <ul class="cabeçalho-link">
+        <li><a href="./Portifólio.html">Inicio</a></li>
+        <li><a href="./Eu2.html">Sobre mim</a></li>
+        <li><a href="./euhobbies.html">Hobbies e Interesses</a></li>
+        <li><a href="./eucontato.html">Contato</a></li>
+    </ul>
+</nav>
+<body>
+    <h1><center>Formulário de Contato</center></h1>
+    <hr
+</body>
+<p><body> <!--estrutura do formulário de contato-->
+    <form action="/formulario-contato" method="post">
+        <div>
+            <label for="nome">Nome:</label> <!--Caixa informativa para digitar o nome-->
+            <input type="texto" id="nome" name="nome_usuario">
+        </div>
+        <div>
+            <label for="email">E-mail:</label><!--Caixa informativa para digitar o e-mail-->
+            <input type="email" id="email" name="email_usuario">
+        </div>
+        <div>
+            <label for="texto">Texto:</label><!--Caixa informativa para digitar a mensagem de texto-->
+            <textarea id="texto" name="texto_usuario"></textarea>
+        </div>
+    </form>
+    <div class="button"><!--botão para enviar a mensagem-->
+        <button type="submit">Enviar</button>
+      </div>
+ 
